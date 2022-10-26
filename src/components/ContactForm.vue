@@ -23,7 +23,8 @@
         <div class="form-group form-check">
             <input name="favorite" type="checkbox" class="form-check-input" v-model="contactLocal.favorite" />
             <label for="favorite" class="form-check-label">
-                <strong>Liên hệ yêu thích</strong></label>
+                <strong>Liên hệ yêu thích</strong>
+            </label>
         </div>
         <div class="form-group">
             <button class="btn btn-primary">Lưu</button>
