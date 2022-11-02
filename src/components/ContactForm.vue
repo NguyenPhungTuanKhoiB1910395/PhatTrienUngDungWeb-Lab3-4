@@ -63,7 +63,7 @@ export default {
                 .string()
                 .matches(
                     /((09|03|07|08|05)+([0-9]{8})\b)/g,
-                    "Số điện thoại không hợp lệ."
+                    "Số điện thoại không hợp lệ (không quá 10 ký tự, chỉ chấp nhận số!)"
                 ),
         });
         return {
